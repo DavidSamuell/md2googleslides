@@ -14,7 +14,7 @@ Contributions are welcome.
 For command line use, install md2gslides globally:
 
 ```sh
-npm install -g md2gslides
+npm install -g .
 ```
 
 Then get your OAuth client ID credentials:
