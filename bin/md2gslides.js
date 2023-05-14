@@ -34,16 +34,16 @@ const SCOPES = [
   'https://www.googleapis.com/auth/drive',
 ];
 
-const USER_HOME =
-  process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
+const USER_HOME = "/home/summarizer"
+  // process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
 const STORED_CREDENTIALS_PATH = path.join(
   USER_HOME,
-  '.md2googleslides',
+  'md2googleslides',
   'credentials.json'
 );
 const STORED_CLIENT_ID_PATH = path.join(
   USER_HOME,
-  '.md2googleslides',
+  'md2googleslides',
   'client_id.json'
 );
 
